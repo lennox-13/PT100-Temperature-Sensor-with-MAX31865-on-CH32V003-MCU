@@ -5,7 +5,7 @@ Overview
 
 This project demonstrates interfacing a PT100 Resistance Temperature Detector (RTD) with a CH32V003 microcontroller using the MAX31865 RTD-to-Digital converter over SPI. The system measures temperature in the range of -200°C to +850°C and outputs the results via UART for monitoring or logging.
 
-The implementation uses fixed-point arithmetic and the Callendar-Van Dusen (CVD) equation, ensuring precise temperature conversion without relying on floating-point calculations — ideal for resource-constrained MCUs.
+The implementation uses fixed-point arithmetic and the Callendar-Van Dusen (CVD) equation, ensuring precise temperature conversion without relying on floating-point calculations — for LE MCUs.
 
 # Features
 
